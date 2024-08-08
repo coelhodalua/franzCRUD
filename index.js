@@ -23,7 +23,7 @@ server.get('/curso:/id', (req, res) => {
 
   const id = req.params.id;
 
-    return res.json({curso: `Curso com  id:  ${id}`});
+    return res.json({curso: `Curso com o id:  ${id}`});
 })
 
 
