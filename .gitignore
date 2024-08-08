@@ -1,8 +1,0 @@
-# Ignorar a pasta "node_modules"
-node_modules/
-
-# Ignorar todos os arquivos com a extensão .log  asd123
-*.log
-
-# Ignorar um arquivo específico
-secret.txt
