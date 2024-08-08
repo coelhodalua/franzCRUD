@@ -15,7 +15,15 @@ server.get('/curso', (req, res) => {
 
   const name = req.query.nome;
 
-    return res.json({curso: `aaaa  ${nome}`});
+    return res.json({curso: `Curso com nome de:  ${nome}`});
+})
+
+//Route
+server.get('/curso:/id', (req, res) => { 
+
+  const id = req.params.id;
+
+    return res.json({curso: `Curso com nome id:  ${id}`});
 })
 
 
